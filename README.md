@@ -10,7 +10,7 @@ async def start(update: Update, context):
 
 # Botni ishga tushirish
 async def main():
-    token = "BOT_TOKEN"  # Bu yerga BotFatherdan olingan tokenni kiriting
+    token = "6562627300:AAGItGJFa3u7i99ySSCSsir7YCmr0GmQJiM"  # Bu yerga BotFatherdan olingan tokenni kiriting
     app = ApplicationBuilder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))

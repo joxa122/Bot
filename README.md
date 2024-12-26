@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler
 
 # "/start" komandasi uchun funksiya
-async def start(update: Update, context):
+async def start(update: Update, context): 
     await update.message.reply_text("Salom! Mana sizga musiqa:")
     # Musiqa faylini yuborish
     with open("music.mp3", "rb") as music:
